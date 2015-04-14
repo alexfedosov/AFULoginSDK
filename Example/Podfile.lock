@@ -1,0 +1,17 @@
+PODS:
+  - AFULoginSDK (0.1.0):
+    - SVProgressHUD
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - AFULoginSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AFULoginSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFULoginSDK: b73d74a1ad17578883af7f6bbc0b05508e5c51a8
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.36.3

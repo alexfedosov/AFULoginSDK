@@ -1,0 +1,1521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0334B447DB48FE710ACE289D /* ULProviderGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = C6101C95E50489DD5B5AC159 /* ULProviderGooglePlus.h */; };
+		082AF75251DF076792C1F691 /* Pods-Tests-AFULoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23085A1C45842B77B27C4265 /* Pods-Tests-AFULoginSDK-dummy.m */; };
+		09BEA920B0A616E1893F4384 /* ULProviderVimeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 507227783DF14387F1F7FECB /* ULProviderVimeo.m */; };
+		0A2E9E56F8DEDBF88753C1AB /* ULProviderVimeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E1387836FC1F20DE7ABDE /* ULProviderVimeo.h */; };
+		0A654AF65FAC72D8C5D32444 /* ULProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F13092B309F8473D21107C /* ULProvider.h */; };
+		0B5359E91A46D0B2E4DE5C1E /* uLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B950B7E02A66257E3B9C8798 /* uLogin.m */; };
+		0B924C011D87B4EE71DF6C52 /* ULProviderGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FC5DA62B27505CD3040F8 /* ULProviderGuest.m */; };
+		10F572F6DBD143DFCC1E0D3D /* ULProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E332917120C526B7650E81CC /* ULProvidersViewController.m */; };
+		128E5F6C2E5A60B490CE1C52 /* ULProviderSoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E3072C7BF5F96E71CF1728 /* ULProviderSoundCloud.h */; };
+		19BBE41CD7ABBF27AEB30162 /* ULProviderSteam.h in Headers */ = {isa = PBXBuildFile; fileRef = 296CEF535C11FC0FF6EAAB1E /* ULProviderSteam.h */; };
+		1BA586357EC587276D200B54 /* ULProviderLiveID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DBD5A56120DB9426DA4A7 /* ULProviderLiveID.m */; };
+		1CB44FAA1B6FCA856DCC6D89 /* ULProviderWebMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577359524378104605E8886 /* ULProviderWebMoney.m */; };
+		1D785A5210FF09AC26239BC7 /* ULProviderLiveJournal.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DCC94C7FA25B7EA55AAD09 /* ULProviderLiveJournal.h */; };
+		1EC07D0AD459F9786F55EF3C /* ULProviderLiveID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A58CD984B65FEDC62E067FA /* ULProviderLiveID.h */; };
+		1ED555C55FDBE0C925BD34C6 /* ULProviderTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 24793842AA3314AEEF79ED96 /* ULProviderTumblr.m */; };
+		1FEE229DA9CFA056AE98CA06 /* ULUserProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F993A5AF2469980EB52CF /* ULUserProfileData.m */; };
+		218830DD7D73C4B44F567B1B /* ULProviderLastFM.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C0A22E65CC2843D975A34 /* ULProviderLastFM.m */; };
+		236D940BA61F9AC67643553B /* ULProviderVimeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E1387836FC1F20DE7ABDE /* ULProviderVimeo.h */; };
+		288B471B9FEDC247567722AA /* ULProviderSoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = F26672898F0B3872BD005429 /* ULProviderSoundCloud.m */; };
+		2968F89A39E4EC78DBCC0A7A /* ULDefaultConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C80F7ABDB62E7FEDD23E8 /* ULDefaultConfigurator.m */; };
+		2A22BC21A07A0D33D12F0318 /* ULDefaultConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = C70234AEC63500628B3A7F34 /* ULDefaultConfigurator.h */; };
+		2A69AEB64C5A6907B89D7440 /* ULProviderYandex.m in Sources */ = {isa = PBXBuildFile; fileRef = E51D63679F0304EA6DB3DBA3 /* ULProviderYandex.m */; };
+		3468BE121419B2D24265AD17 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 704B878B55140206D99C1EC5 /* SVProgressHUD.h */; };
+		35DBA360A879364C9A50D6F8 /* ULDefaultConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = C70234AEC63500628B3A7F34 /* ULDefaultConfigurator.h */; };
+		3715DC7867DF4F9148079CE2 /* ULProviderTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D077B51E8CE06E86ABCEF /* ULProviderTwitter.m */; };
+		37E04EE02100035D0423D5FF /* ULProviderLinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8042DB2FFC39685774F664 /* ULProviderLinkedIn.m */; };
+		3865DCE2D30FA5F138C83E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		39474067C144E07BB9E63A6F /* ULUserProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2C2C2CAFA16A535207B1DD /* ULUserProfileData.h */; };
+		40EDD889CB3D9725699499DF /* ULProviderLastFM.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DA7F4E5CC7D29209DCBC38 /* ULProviderLastFM.h */; };
+		425ADD585D9ED69AAE07EEDA /* ULProviderFoursquare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F52ACA055CBED45FA453C73 /* ULProviderFoursquare.h */; };
+		4310A8265ECC868F514E1D9E /* ULProvidersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A11F0D10178294239305B502 /* ULProvidersViewController.h */; };
+		43BBC03AAA178B1D91E491E1 /* ULProviderSteam.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C33793DABC0AA922899254 /* ULProviderSteam.m */; };
+		43D1F02BD658A8E27DB4F615 /* ULProviderVkontakte.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A145C676A738134940B653 /* ULProviderVkontakte.h */; };
+		4725B035E9AFEE85BCB48630 /* ULProviderOdnoklassniki.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBBFE70F04BDBAB030E96E4 /* ULProviderOdnoklassniki.h */; };
+		476409BB0D9B2100AEFBBEB1 /* ULProviderOdnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A49BE9D078ADF93B44E4ED /* ULProviderOdnoklassniki.m */; };
+		4AAA5E92A73EAF0C256C26C9 /* ULProviderOpenID.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F466E78EB7EE47B2B2CCD0 /* ULProviderOpenID.m */; };
+		4BF0C966B7DA1037786AE98D /* ULProviderLinkedIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 921B928AC0B7E071004D4253 /* ULProviderLinkedIn.h */; };
+		4F3649ACE7E530DFD21DFE4F /* ULProviderLinkedIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 921B928AC0B7E071004D4253 /* ULProviderLinkedIn.h */; };
+		50F262E9AD2C44A4512BF626 /* ULProviderYandex.m in Sources */ = {isa = PBXBuildFile; fileRef = E51D63679F0304EA6DB3DBA3 /* ULProviderYandex.m */; };
+		53A4277A99B15FBFAB7A81BB /* ULProviderMailRU.h in Headers */ = {isa = PBXBuildFile; fileRef = 565E8A3930EDCD43FA91BB46 /* ULProviderMailRU.h */; };
+		55976DF8A53F2E248E619CFD /* ConnectionErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A233ECE1B86B50510C439D7 /* ConnectionErrors.h */; };
+		55AEDBD819CB8E0B46FC6F69 /* ULProviderFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D59E95AEB6D7B7352BD548 /* ULProviderFoursquare.m */; };
+		55E91FAB94F55B6717C34967 /* uLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A215DA6EA2B0365F137B3FAC /* uLogin.h */; };
+		5809FBB6C6C7FD9BDFB582F1 /* ULProviderSteam.h in Headers */ = {isa = PBXBuildFile; fileRef = 296CEF535C11FC0FF6EAAB1E /* ULProviderSteam.h */; };
+		5FC1777FBBDC90BE15570CF6 /* ULProviderVkontakte.m in Sources */ = {isa = PBXBuildFile; fileRef = E330AD83946AD8BF1964D35A /* ULProviderVkontakte.m */; };
+		650C90598D6844FFC8152B9D /* ULogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4DB255755EC183D4E8FFE1 /* ULogin.storyboard */; };
+		68E808F1008FF5D73F092307 /* ULDefaultConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C80F7ABDB62E7FEDD23E8 /* ULDefaultConfigurator.m */; };
+		6C0A947998615489B8C6123E /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 704B878B55140206D99C1EC5 /* SVProgressHUD.h */; };
+		6C59D9D135D46E46A39C1153 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E42D7737B8DBBAB4076DC4D /* QuartzCore.framework */; };
+		6C92CE8CB6279E546B234572 /* ULProviderYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CC61BDC9A33C27419A3C81 /* ULProviderYouTube.h */; };
+		6CF3861EF1E475521DEE8453 /* Pods-AFULoginSDK-AFULoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F697191426018D111D197 /* Pods-AFULoginSDK-AFULoginSDK-dummy.m */; };
+		6E715F05D3B90B00C60B2D5D /* ULProviderMailRU.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F518D605AD0296EE55E3D7 /* ULProviderMailRU.m */; };
+		71F43FCD926033904B76EC0D /* ULProviderFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4158C17FDA8171E8BE15F87B /* ULProviderFlickr.h */; };
+		736C17CF9F5A18A12B750788 /* ULProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F13092B309F8473D21107C /* ULProvider.h */; };
+		76B155B8519FB7DB8BE436FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		79C08B55B0A841055FEB282C /* ULProvidersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A11F0D10178294239305B502 /* ULProvidersViewController.h */; };
+		7B2BC34D0F161579899E562A /* ULProviderTumblr.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B0BFD1279C32CD76630F06 /* ULProviderTumblr.h */; };
+		7E57D81E9E649687B07707D8 /* ULProviderTumblr.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B0BFD1279C32CD76630F06 /* ULProviderTumblr.h */; };
+		7FE023C41033E09EED4AF664 /* ULProviderFoursquare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F52ACA055CBED45FA453C73 /* ULProviderFoursquare.h */; };
+		859B9A46D7EB6B351782FAF8 /* ULProviderLiveID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DBD5A56120DB9426DA4A7 /* ULProviderLiveID.m */; };
+		860BF148848CA398220C6F03 /* ULProviderVkontakte.m in Sources */ = {isa = PBXBuildFile; fileRef = E330AD83946AD8BF1964D35A /* ULProviderVkontakte.m */; };
+		8876A94586F789F7AACB77C9 /* ULProviderLiveJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = E108F0C49CD93EC47382FC39 /* ULProviderLiveJournal.m */; };
+		89304763C5C1E7529D27EDC0 /* ULProviderTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E6AE5FF28D87BB1A17A14C /* ULProviderTwitter.h */; };
+		8937CC7024F4F6BF39D231CC /* ULProviderGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FC5DA62B27505CD3040F8 /* ULProviderGuest.m */; };
+		8B0B51E0B822EFE4A8D9E692 /* AFULoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F3309BC1813DB56972E02B98 /* AFULoginSDK.h */; };
+		8B41686FF8972C92B1DCD967 /* ULProviderFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D1DE080E98FBDF749C5B8 /* ULProviderFlickr.m */; };
+		8CFFB03D4C13350985E6430A /* ULProviderWebMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = B1990D9769F04FE2E2EEBED8 /* ULProviderWebMoney.h */; };
+		8D0D6FEE589DE2E6C2C080E6 /* ULProviderGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E32F3F5DB41445ADA04D1 /* ULProviderGoogle.m */; };
+		8E735EF5EF5FE6114A1A30A3 /* ULProviderOpenID.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F466E78EB7EE47B2B2CCD0 /* ULProviderOpenID.m */; };
+		8FBA7BDF542AF5DD44128ABF /* ULProviderTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 24793842AA3314AEEF79ED96 /* ULProviderTumblr.m */; };
+		8FD09899A6C9B60E6AED4D70 /* ULProviderLiveID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A58CD984B65FEDC62E067FA /* ULProviderLiveID.h */; };
+		9015A5FE6EA0A45C43BABB36 /* ULProviderYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 65836EC27813E089C504120E /* ULProviderYouTube.m */; };
+		9265997EE1E81C1D4FCA30D7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2F6600748E6AC7E777702 /* SVIndefiniteAnimatedView.m */; };
+		930A7E48C54F12279042546D /* ULProviderVkontakte.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A145C676A738134940B653 /* ULProviderVkontakte.h */; };
+		98234654FF91F475E4F0BA18 /* ULProviderOpenID.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E144A0E13F171596B008C6 /* ULProviderOpenID.h */; };
+		9A088F5BA7DD2E729A49717C /* ULProviderGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857DE2CAFDD79F289A2885E /* ULProviderGooglePlus.m */; };
+		9A161FB16E36F8652A7B652B /* ULProviderFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDC2D8C3B5D498928D33E6 /* ULProviderFacebook.m */; };
+		9B01A94274254CFA6CF2C635 /* ULProviderSteam.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C33793DABC0AA922899254 /* ULProviderSteam.m */; };
+		9C4142BE7DB8720D16E82812 /* ULProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E332917120C526B7650E81CC /* ULProvidersViewController.m */; };
+		9E76048524F41BEDDC679462 /* ULProviderGoogle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52445CB8FCDE3E42133932FC /* ULProviderGoogle.h */; };
+		9F3D6720C28B4651A7A97E6D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A01E323F000E071A00EDBD /* SVProgressHUD.m */; };
+		A1FF590130F4756102A6823D /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEE66E879CC4009E8804D8 /* SVIndefiniteAnimatedView.h */; };
+		A51D31118CF119FDCAB48848 /* AFULoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F3309BC1813DB56972E02B98 /* AFULoginSDK.h */; };
+		ACB969470475EEDAD2B980DF /* ULProviderSoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E3072C7BF5F96E71CF1728 /* ULProviderSoundCloud.h */; };
+		ACE884E04580A13BB47BEE99 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D102C247CCC28B4D522A2 /* Pods-Tests-dummy.m */; };
+		AE3911449499754621A46674 /* ULProviderGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = C6101C95E50489DD5B5AC159 /* ULProviderGooglePlus.h */; };
+		B3D7CBBE722D16509FF7C240 /* ULProviderYandex.h in Headers */ = {isa = PBXBuildFile; fileRef = BD262C4948F65AE5A4D75DF8 /* ULProviderYandex.h */; };
+		B574BFE07ED1E6C74F07A010 /* ULProviderOdnoklassniki.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBBFE70F04BDBAB030E96E4 /* ULProviderOdnoklassniki.h */; };
+		B6B78FE345E70EE61797197A /* Pods-AFULoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CE054E94F56A0E038350A0 /* Pods-AFULoginSDK-dummy.m */; };
+		B97FA050E7D5242026C91629 /* ULProviderVimeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 507227783DF14387F1F7FECB /* ULProviderVimeo.m */; };
+		B9B2839BE9872BFA2E44D888 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E42D7737B8DBBAB4076DC4D /* QuartzCore.framework */; };
+		BA205496B9FE8559A5C8EB28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		BB7DD1C6B9186161B65EE85C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A01E323F000E071A00EDBD /* SVProgressHUD.m */; };
+		BB8DCA48DF03356D9B1FC00B /* ULWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C72666602740201B71A11331 /* ULWebViewController.h */; };
+		BB95CA2EF86A81F9B359C09B /* ULProviderFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D1DE080E98FBDF749C5B8 /* ULProviderFlickr.m */; };
+		BD5357CD1DBD9AACAE9C08B6 /* ULProviderYandex.h in Headers */ = {isa = PBXBuildFile; fileRef = BD262C4948F65AE5A4D75DF8 /* ULProviderYandex.h */; };
+		BDA9DB7AF888716351BBA093 /* ULProviderGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857DE2CAFDD79F289A2885E /* ULProviderGooglePlus.m */; };
+		BE7392B13DB4AAD73E98BEFE /* ULWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF158B3F63E3672B25D2F5D9 /* ULWebViewController.m */; };
+		C260EBF28D3C44958061713C /* ULProviderLiveJournal.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DCC94C7FA25B7EA55AAD09 /* ULProviderLiveJournal.h */; };
+		C39433C20958468183246D6C /* ULProviderFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D59E95AEB6D7B7352BD548 /* ULProviderFoursquare.m */; };
+		C3D38E989A6A253567A2790E /* Pods-Tests-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC9D2D293941151C22FE6F /* Pods-Tests-SVProgressHUD-dummy.m */; };
+		C4A05EAEDD056AEBAF4742A4 /* ULProviderMailRU.h in Headers */ = {isa = PBXBuildFile; fileRef = 565E8A3930EDCD43FA91BB46 /* ULProviderMailRU.h */; };
+		C579A88089DD7A792076F6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		C6AF295F6219983B12FF0352 /* ULProviderGoogle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52445CB8FCDE3E42133932FC /* ULProviderGoogle.h */; };
+		C6B8C530E10D80120F8A9B52 /* Pods-AFULoginSDK-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B47B080F5A19F726BAD35 /* Pods-AFULoginSDK-SVProgressHUD-dummy.m */; };
+		CCFA9D607CF0A4D7A26A2E61 /* ULUserProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2C2C2CAFA16A535207B1DD /* ULUserProfileData.h */; };
+		CDF2F5BA01BCBEA08AA6E2AD /* uLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A215DA6EA2B0365F137B3FAC /* uLogin.h */; };
+		CE60A3739257EA884C66137F /* ULogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4DB255755EC183D4E8FFE1 /* ULogin.storyboard */; };
+		D044DA28C2A99877E6743220 /* ULProviderFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4158C17FDA8171E8BE15F87B /* ULProviderFlickr.h */; };
+		D091AFC72174444396CAC406 /* ULProviderGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E32F3F5DB41445ADA04D1 /* ULProviderGoogle.m */; };
+		DA2D7D1B3EC3B6AF7B36D65F /* ULProviderWebMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = B1990D9769F04FE2E2EEBED8 /* ULProviderWebMoney.h */; };
+		DBAABB489D3DB535FD6A93C2 /* ULProviderSoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = F26672898F0B3872BD005429 /* ULProviderSoundCloud.m */; };
+		DCF3D21870C2BD08F304CA36 /* ULProviderFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDC2D8C3B5D498928D33E6 /* ULProviderFacebook.m */; };
+		DEF8D9B57C38CF70AC197DED /* ULProviderLastFM.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DA7F4E5CC7D29209DCBC38 /* ULProviderLastFM.h */; };
+		DF39DE5208FDF40FBC0845B7 /* ULProviderLinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8042DB2FFC39685774F664 /* ULProviderLinkedIn.m */; };
+		E1D03AF697C11FA3D5F63D10 /* ULWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF158B3F63E3672B25D2F5D9 /* ULWebViewController.m */; };
+		E70B3737996C451E2BDD3615 /* ULProviderGuest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA54627C719066BD06FD9BF /* ULProviderGuest.h */; };
+		E9E3310669030C0519BAC969 /* ULProviderLiveJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = E108F0C49CD93EC47382FC39 /* ULProviderLiveJournal.m */; };
+		EB8F6D3C72DDA2893E98F742 /* ULProviderGuest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA54627C719066BD06FD9BF /* ULProviderGuest.h */; };
+		EB918EFBD8461A9AAD130A0B /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEE66E879CC4009E8804D8 /* SVIndefiniteAnimatedView.h */; };
+		EBAC321AC8D88D884A2BFCEB /* uLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B950B7E02A66257E3B9C8798 /* uLogin.m */; };
+		EC4F2CAA31FA4228FDE9085D /* ULProviderFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = B298C9D3F3835C098DAE0099 /* ULProviderFacebook.h */; };
+		EFE18551B3013CE7BB2797B8 /* ULProviderMailRU.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F518D605AD0296EE55E3D7 /* ULProviderMailRU.m */; };
+		F0C933AA35185C5FD6BABB02 /* ULProviderYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 65836EC27813E089C504120E /* ULProviderYouTube.m */; };
+		F0F932D2C56F4FE5280997E3 /* ULProviderFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = B298C9D3F3835C098DAE0099 /* ULProviderFacebook.h */; };
+		F23B87608ADE05F1CC86EAC3 /* ULWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C72666602740201B71A11331 /* ULWebViewController.h */; };
+		F2BFF07CF00994D904FE7B71 /* ULProviderTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E6AE5FF28D87BB1A17A14C /* ULProviderTwitter.h */; };
+		F56B4E15EB1C8EE235F3E4E5 /* ULProviderTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D077B51E8CE06E86ABCEF /* ULProviderTwitter.m */; };
+		F605D6F27BC02D76BE199EB4 /* ULUserProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F993A5AF2469980EB52CF /* ULUserProfileData.m */; };
+		F6574F88B0FD270911AED0CF /* ULProviderYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CC61BDC9A33C27419A3C81 /* ULProviderYouTube.h */; };
+		F6990A24BAF3B837BD14B0A2 /* ULProviderOdnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A49BE9D078ADF93B44E4ED /* ULProviderOdnoklassniki.m */; };
+		F723410C602BD411F37C9CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		F9431C1E3BAC758E5E22A853 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2F6600748E6AC7E777702 /* SVIndefiniteAnimatedView.m */; };
+		FB80FC12AB12CD85EF6BFB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE898C39D2BD9F9A636F75 /* Foundation.framework */; };
+		FBC28E95809E951F8BCEDDFA /* ULProviderLastFM.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C0A22E65CC2843D975A34 /* ULProviderLastFM.m */; };
+		FDA25890A9905C8FFD9B72FC /* ConnectionErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A233ECE1B86B50510C439D7 /* ConnectionErrors.h */; };
+		FE043CD8AE3DAA57D586B7B2 /* ULProviderOpenID.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E144A0E13F171596B008C6 /* ULProviderOpenID.h */; };
+		FE8225DF78FE5BF4589B6026 /* ULProviderWebMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577359524378104605E8886 /* ULProviderWebMoney.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		027AB016986701123C6300FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD7073A4443DF19714F2893;
+			remoteInfo = "Pods-AFULoginSDK-SVProgressHUD";
+		};
+		35C1BCC2FF5A3A7C83DDF948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1DDB68C6E0A7BACC733A178;
+			remoteInfo = "Pods-Tests-AFULoginSDK";
+		};
+		4310119D34387D4837AFA779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD7073A4443DF19714F2893;
+			remoteInfo = "Pods-AFULoginSDK-SVProgressHUD";
+		};
+		4AB4C270F0EA3F6545082D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A8203E7DB630E4569CDA4;
+			remoteInfo = "Pods-Tests-SVProgressHUD";
+		};
+		72D4F11AFA05DFE1CEC367D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A8203E7DB630E4569CDA4;
+			remoteInfo = "Pods-Tests-SVProgressHUD";
+		};
+		757B6CF5E1C6E2186DC2261D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9313A1864CD93A5E1929C0E;
+			remoteInfo = "Pods-AFULoginSDK-AFULoginSDK";
+		};
+		B05AF2E4CE5A29D2345B6761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAF8FB2BD4F57FFD82249C0;
+			remoteInfo = "Pods-Tests-AFULoginSDK-AFULoginSDK";
+		};
+		E81D9BCF88FD44A5EE4009EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1718E37660458D501D8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E17A0B942665A87BEBC3A7;
+			remoteInfo = "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E6AE5FF28D87BB1A17A14C /* ULProviderTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderTwitter.h; sourceTree = "<group>"; };
+		091EEC134A2ACF18F5AC555B /* Pods-Tests-AFULoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AFULoginSDK-prefix.pch"; path = "../Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK-prefix.pch"; sourceTree = "<group>"; };
+		096C80F7ABDB62E7FEDD23E8 /* ULDefaultConfigurator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULDefaultConfigurator.m; sourceTree = "<group>"; };
+		0D222E5642B5491A9F5F0425 /* AFULoginSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFULoginSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5CBC7BE6DDDED67A62570B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134E1387836FC1F20DE7ABDE /* ULProviderVimeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderVimeo.h; sourceTree = "<group>"; };
+		1577359524378104605E8886 /* ULProviderWebMoney.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderWebMoney.m; sourceTree = "<group>"; };
+		175D1DE080E98FBDF749C5B8 /* ULProviderFlickr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderFlickr.m; sourceTree = "<group>"; };
+		1F52ACA055CBED45FA453C73 /* ULProviderFoursquare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderFoursquare.h; sourceTree = "<group>"; };
+		222061E49B668652E411B911 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		22F06D13BC49044FE2AB633D /* Pods-Tests-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SVProgressHUD-prefix.pch"; path = "../Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		23085A1C45842B77B27C4265 /* Pods-Tests-AFULoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AFULoginSDK-dummy.m"; path = "../Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK-dummy.m"; sourceTree = "<group>"; };
+		23B483B79D3726581076209F /* libPods-Tests-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24793842AA3314AEEF79ED96 /* ULProviderTumblr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderTumblr.m; sourceTree = "<group>"; };
+		255B47B080F5A19F726BAD35 /* Pods-AFULoginSDK-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFULoginSDK-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2580E11F67FFE4C27BDABAC5 /* libPods-AFULoginSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFULoginSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C6119FCEC6846F7B9D7F46 /* Pods-Tests-AFULoginSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFULoginSDK.xcconfig"; path = "../Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK.xcconfig"; sourceTree = "<group>"; };
+		25DCC94C7FA25B7EA55AAD09 /* ULProviderLiveJournal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderLiveJournal.h; sourceTree = "<group>"; };
+		28A2F6600748E6AC7E777702 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		296CEF535C11FC0FF6EAAB1E /* ULProviderSteam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderSteam.h; sourceTree = "<group>"; };
+		2B75F703C9D6B9BBE8D74651 /* Pods-AFULoginSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFULoginSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CA54627C719066BD06FD9BF /* ULProviderGuest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderGuest.h; sourceTree = "<group>"; };
+		2E07874EBBC7C1246D13C5DB /* AFULoginSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFULoginSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		308B5CFDB0F00DFBD2612EEC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		37EC9D2D293941151C22FE6F /* Pods-Tests-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SVProgressHUD-dummy.m"; path = "../Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		38AAD36D3C0B3BF2006A2AE2 /* Pods-AFULoginSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFULoginSDK-resources.sh"; sourceTree = "<group>"; };
+		38C33793DABC0AA922899254 /* ULProviderSteam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderSteam.m; sourceTree = "<group>"; };
+		3B8E32F3F5DB41445ADA04D1 /* ULProviderGoogle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderGoogle.m; sourceTree = "<group>"; };
+		3E42D7737B8DBBAB4076DC4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4158C17FDA8171E8BE15F87B /* ULProviderFlickr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderFlickr.h; sourceTree = "<group>"; };
+		42BA6F636AACC85CE393B755 /* libPods-AFULoginSDK-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFULoginSDK-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E3072C7BF5F96E71CF1728 /* ULProviderSoundCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderSoundCloud.h; sourceTree = "<group>"; };
+		485868179238187A5DC6A701 /* Pods-AFULoginSDK-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		4A2304D47046B9BEDC98B9B2 /* Pods-AFULoginSDK-AFULoginSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK-AFULoginSDK.xcconfig"; sourceTree = "<group>"; };
+		4B8042DB2FFC39685774F664 /* ULProviderLinkedIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderLinkedIn.m; sourceTree = "<group>"; };
+		500F65AE9E8EE5607FADD8EB /* Pods-AFULoginSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFULoginSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		507227783DF14387F1F7FECB /* ULProviderVimeo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderVimeo.m; sourceTree = "<group>"; };
+		52445CB8FCDE3E42133932FC /* ULProviderGoogle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderGoogle.h; sourceTree = "<group>"; };
+		55F518D605AD0296EE55E3D7 /* ULProviderMailRU.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderMailRU.m; sourceTree = "<group>"; };
+		565E8A3930EDCD43FA91BB46 /* ULProviderMailRU.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderMailRU.h; sourceTree = "<group>"; };
+		5857DE2CAFDD79F289A2885E /* ULProviderGooglePlus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderGooglePlus.m; sourceTree = "<group>"; };
+		5BBF8864AAF0F732046BE0AE /* Pods-Tests-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SVProgressHUD.xcconfig"; path = "../Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		637F697191426018D111D197 /* Pods-AFULoginSDK-AFULoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFULoginSDK-AFULoginSDK-dummy.m"; sourceTree = "<group>"; };
+		6523AA7675705C693055A80A /* Pods-AFULoginSDK-AFULoginSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK-AFULoginSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		65836EC27813E089C504120E /* ULProviderYouTube.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderYouTube.m; sourceTree = "<group>"; };
+		65DA7F4E5CC7D29209DCBC38 /* ULProviderLastFM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderLastFM.h; sourceTree = "<group>"; };
+		66A49BE9D078ADF93B44E4ED /* ULProviderOdnoklassniki.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderOdnoklassniki.m; sourceTree = "<group>"; };
+		66F466E78EB7EE47B2B2CCD0 /* ULProviderOpenID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderOpenID.m; sourceTree = "<group>"; };
+		6886B3FBF8C40FE119269B4C /* Pods-AFULoginSDK-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFULoginSDK-environment.h"; sourceTree = "<group>"; };
+		6EA80B63A8F75C07A46AC748 /* Pods-AFULoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		704B878B55140206D99C1EC5 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		70CFBCE9AF6A5BD33836477A /* Pods-AFULoginSDK-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		72CC61BDC9A33C27419A3C81 /* ULProviderYouTube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderYouTube.h; sourceTree = "<group>"; };
+		74E144A0E13F171596B008C6 /* ULProviderOpenID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderOpenID.h; sourceTree = "<group>"; };
+		767492965ACBCB7D058BA285 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		767E337546B5C057C78D81A4 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		7D144654D5F514299D7D0FBA /* libPods-Tests-AFULoginSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AFULoginSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2C2C2CAFA16A535207B1DD /* ULUserProfileData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULUserProfileData.h; sourceTree = "<group>"; };
+		7EDDC2D8C3B5D498928D33E6 /* ULProviderFacebook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderFacebook.m; sourceTree = "<group>"; };
+		85FA4BA6537C2D22ECE2F289 /* Pods-AFULoginSDK-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFULoginSDK-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8769D2931698D15992C9153C /* Pods-AFULoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFULoginSDK.release.xcconfig"; sourceTree = "<group>"; };
+		87F34D80BD5E4C4D758AC484 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A233ECE1B86B50510C439D7 /* ConnectionErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConnectionErrors.h; sourceTree = "<group>"; };
+		8EC5F8B738DD8F4997E70EDA /* Pods-Tests-AFULoginSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFULoginSDK-Private.xcconfig"; path = "../Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		91AEE66E879CC4009E8804D8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		921B928AC0B7E071004D4253 /* ULProviderLinkedIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderLinkedIn.h; sourceTree = "<group>"; };
+		9A58CD984B65FEDC62E067FA /* ULProviderLiveID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderLiveID.h; sourceTree = "<group>"; };
+		9B6DBD5A56120DB9426DA4A7 /* ULProviderLiveID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderLiveID.m; sourceTree = "<group>"; };
+		A11F0D10178294239305B502 /* ULProvidersViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProvidersViewController.h; sourceTree = "<group>"; };
+		A215DA6EA2B0365F137B3FAC /* uLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = uLogin.h; sourceTree = "<group>"; };
+		A5F13092B309F8473D21107C /* ULProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProvider.h; sourceTree = "<group>"; };
+		A65D102C247CCC28B4D522A2 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		A6D59E95AEB6D7B7352BD548 /* ULProviderFoursquare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderFoursquare.m; sourceTree = "<group>"; };
+		A7A145C676A738134940B653 /* ULProviderVkontakte.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderVkontakte.h; sourceTree = "<group>"; };
+		B1990D9769F04FE2E2EEBED8 /* ULProviderWebMoney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderWebMoney.h; sourceTree = "<group>"; };
+		B298C9D3F3835C098DAE0099 /* ULProviderFacebook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderFacebook.h; sourceTree = "<group>"; };
+		B6A01E323F000E071A00EDBD /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		B950B7E02A66257E3B9C8798 /* uLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = uLogin.m; sourceTree = "<group>"; };
+		B96C0A22E65CC2843D975A34 /* ULProviderLastFM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderLastFM.m; sourceTree = "<group>"; };
+		BC4DB255755EC183D4E8FFE1 /* ULogin.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = ULogin.storyboard; sourceTree = "<group>"; };
+		BD262C4948F65AE5A4D75DF8 /* ULProviderYandex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderYandex.h; sourceTree = "<group>"; };
+		BF158B3F63E3672B25D2F5D9 /* ULWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULWebViewController.m; sourceTree = "<group>"; };
+		C3CE054E94F56A0E038350A0 /* Pods-AFULoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFULoginSDK-dummy.m"; sourceTree = "<group>"; };
+		C6101C95E50489DD5B5AC159 /* ULProviderGooglePlus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderGooglePlus.h; sourceTree = "<group>"; };
+		C70234AEC63500628B3A7F34 /* ULDefaultConfigurator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULDefaultConfigurator.h; sourceTree = "<group>"; };
+		C72666602740201B71A11331 /* ULWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULWebViewController.h; sourceTree = "<group>"; };
+		C75FC5DA62B27505CD3040F8 /* ULProviderGuest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderGuest.m; sourceTree = "<group>"; };
+		C9565C4FADFB549A1645B2B2 /* libPods-AFULoginSDK-AFULoginSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFULoginSDK-AFULoginSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0805EF3A95FBE66DBDA5F5 /* Pods-AFULoginSDK-AFULoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFULoginSDK-AFULoginSDK-prefix.pch"; sourceTree = "<group>"; };
+		CEF959A67A661FFFC87A71D8 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D05D077B51E8CE06E86ABCEF /* ULProviderTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderTwitter.m; sourceTree = "<group>"; };
+		D3B0BFD1279C32CD76630F06 /* ULProviderTumblr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderTumblr.h; sourceTree = "<group>"; };
+		E108F0C49CD93EC47382FC39 /* ULProviderLiveJournal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderLiveJournal.m; sourceTree = "<group>"; };
+		E330AD83946AD8BF1964D35A /* ULProviderVkontakte.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderVkontakte.m; sourceTree = "<group>"; };
+		E332917120C526B7650E81CC /* ULProvidersViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProvidersViewController.m; sourceTree = "<group>"; };
+		E51D63679F0304EA6DB3DBA3 /* ULProviderYandex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderYandex.m; sourceTree = "<group>"; };
+		E8549EDAC5EC25E7852B3993 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEEE898C39D2BD9F9A636F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F005880BBD470D653B87CD32 /* Pods-Tests-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SVProgressHUD-Private.xcconfig"; path = "../Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		F230D880342FCC5110F5BC09 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F26672898F0B3872BD005429 /* ULProviderSoundCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULProviderSoundCloud.m; sourceTree = "<group>"; };
+		F3309BC1813DB56972E02B98 /* AFULoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFULoginSDK.h; sourceTree = "<group>"; };
+		F88F993A5AF2469980EB52CF /* ULUserProfileData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ULUserProfileData.m; sourceTree = "<group>"; };
+		FEBBFE70F04BDBAB030E96E4 /* ULProviderOdnoklassniki.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULProviderOdnoklassniki.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334BAABDEAC9F39D99A2E391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B155B8519FB7DB8BE436FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743A6C2430FB207AB77F2EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865DCE2D30FA5F138C83E78 /* Foundation.framework in Frameworks */,
+				B9B2839BE9872BFA2E44D888 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3564B513C67A69FE313229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C579A88089DD7A792076F6F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D32E79796EB403A1E752C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB80FC12AB12CD85EF6BFB38 /* Foundation.framework in Frameworks */,
+				6C59D9D135D46E46A39C1153 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00E6A406207CF4191DFBE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1278C1E59BD8D84E0B64F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2F991901AD024564BCDCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F723410C602BD411F37C9CC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA38F2BB2C3D4188106EBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA205496B9FE8559A5C8EB28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3FFFD4AC5B48727D759153 /* AFULoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE73E4CD4640B776FA39DB /* Pod */,
+				4F2168FDC75103BFD36A580D /* Resources */,
+				321330E7FE0B13BBB757F13C /* Support Files */,
+			);
+			name = AFULoginSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		149532D0778AF1863800D8F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3309BC1813DB56972E02B98 /* AFULoginSDK.h */,
+				8A233ECE1B86B50510C439D7 /* ConnectionErrors.h */,
+				C70234AEC63500628B3A7F34 /* ULDefaultConfigurator.h */,
+				096C80F7ABDB62E7FEDD23E8 /* ULDefaultConfigurator.m */,
+				A11F0D10178294239305B502 /* ULProvidersViewController.h */,
+				E332917120C526B7650E81CC /* ULProvidersViewController.m */,
+				7D2C2C2CAFA16A535207B1DD /* ULUserProfileData.h */,
+				F88F993A5AF2469980EB52CF /* ULUserProfileData.m */,
+				C72666602740201B71A11331 /* ULWebViewController.h */,
+				BF158B3F63E3672B25D2F5D9 /* ULWebViewController.m */,
+				A215DA6EA2B0365F137B3FAC /* uLogin.h */,
+				B950B7E02A66257E3B9C8798 /* uLogin.m */,
+				E53C720E854E39F8A68F4427 /* Providers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C6FA86A20D208513243F773 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D73041CC323101E959D5D03B /* Pods-AFULoginSDK */,
+				2FA1CC77E18AD477651D5947 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FA1CC77E18AD477651D5947 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8549EDAC5EC25E7852B3993 /* Pods-Tests-acknowledgements.markdown */,
+				87F34D80BD5E4C4D758AC484 /* Pods-Tests-acknowledgements.plist */,
+				A65D102C247CCC28B4D522A2 /* Pods-Tests-dummy.m */,
+				767E337546B5C057C78D81A4 /* Pods-Tests-environment.h */,
+				308B5CFDB0F00DFBD2612EEC /* Pods-Tests-resources.sh */,
+				767492965ACBCB7D058BA285 /* Pods-Tests.debug.xcconfig */,
+				CEF959A67A661FFFC87A71D8 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		321330E7FE0B13BBB757F13C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2304D47046B9BEDC98B9B2 /* Pods-AFULoginSDK-AFULoginSDK.xcconfig */,
+				6523AA7675705C693055A80A /* Pods-AFULoginSDK-AFULoginSDK-Private.xcconfig */,
+				637F697191426018D111D197 /* Pods-AFULoginSDK-AFULoginSDK-dummy.m */,
+				CB0805EF3A95FBE66DBDA5F5 /* Pods-AFULoginSDK-AFULoginSDK-prefix.pch */,
+				25C6119FCEC6846F7B9D7F46 /* Pods-Tests-AFULoginSDK.xcconfig */,
+				8EC5F8B738DD8F4997E70EDA /* Pods-Tests-AFULoginSDK-Private.xcconfig */,
+				23085A1C45842B77B27C4265 /* Pods-Tests-AFULoginSDK-dummy.m */,
+				091EEC134A2ACF18F5AC555B /* Pods-Tests-AFULoginSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-AFULoginSDK-AFULoginSDK";
+			sourceTree = "<group>";
+		};
+		4F2168FDC75103BFD36A580D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1D435FF6D244EA07093C3AB /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		616EEA001DDABFD2CFC6112A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				91AEE66E879CC4009E8804D8 /* SVIndefiniteAnimatedView.h */,
+				28A2F6600748E6AC7E777702 /* SVIndefiniteAnimatedView.m */,
+				704B878B55140206D99C1EC5 /* SVProgressHUD.h */,
+				B6A01E323F000E071A00EDBD /* SVProgressHUD.m */,
+				A4DE246C20E12EEE675695EF /* Resources */,
+				789F615399BFB9AEC7DB0D35 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		63A18AC18C21376C42C3AA4D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3FFFD4AC5B48727D759153 /* AFULoginSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		71EDA71731F92F671FF5E0FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE898C39D2BD9F9A636F75 /* Foundation.framework */,
+				3E42D7737B8DBBAB4076DC4D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		789F615399BFB9AEC7DB0D35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CFBCE9AF6A5BD33836477A /* Pods-AFULoginSDK-SVProgressHUD.xcconfig */,
+				485868179238187A5DC6A701 /* Pods-AFULoginSDK-SVProgressHUD-Private.xcconfig */,
+				255B47B080F5A19F726BAD35 /* Pods-AFULoginSDK-SVProgressHUD-dummy.m */,
+				85FA4BA6537C2D22ECE2F289 /* Pods-AFULoginSDK-SVProgressHUD-prefix.pch */,
+				5BBF8864AAF0F732046BE0AE /* Pods-Tests-SVProgressHUD.xcconfig */,
+				F005880BBD470D653B87CD32 /* Pods-Tests-SVProgressHUD-Private.xcconfig */,
+				37EC9D2D293941151C22FE6F /* Pods-Tests-SVProgressHUD-dummy.m */,
+				22F06D13BC49044FE2AB633D /* Pods-Tests-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AFULoginSDK-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		98F76D828A01F1E5173751D7 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BC4DB255755EC183D4E8FFE1 /* ULogin.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		A4DE246C20E12EEE675695EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				222061E49B668652E411B911 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF368E02E23B8369BFF54A83 = {
+			isa = PBXGroup;
+			children = (
+				F230D880342FCC5110F5BC09 /* Podfile */,
+				63A18AC18C21376C42C3AA4D /* Development Pods */,
+				B83B61CEBE14C982DA0AB63E /* Frameworks */,
+				D66CFCE5AC325B569B4B48DE /* Pods */,
+				E0F4AADD889E62328EE1DBDE /* Products */,
+				2C6FA86A20D208513243F773 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B83B61CEBE14C982DA0AB63E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71EDA71731F92F671FF5E0FF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D435FF6D244EA07093C3AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D275A0DF4BB54E001BB2F7C5 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D275A0DF4BB54E001BB2F7C5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				98F76D828A01F1E5173751D7 /* en.lproj */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D66CFCE5AC325B569B4B48DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				616EEA001DDABFD2CFC6112A /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D73041CC323101E959D5D03B /* Pods-AFULoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				500F65AE9E8EE5607FADD8EB /* Pods-AFULoginSDK-acknowledgements.markdown */,
+				2B75F703C9D6B9BBE8D74651 /* Pods-AFULoginSDK-acknowledgements.plist */,
+				C3CE054E94F56A0E038350A0 /* Pods-AFULoginSDK-dummy.m */,
+				6886B3FBF8C40FE119269B4C /* Pods-AFULoginSDK-environment.h */,
+				38AAD36D3C0B3BF2006A2AE2 /* Pods-AFULoginSDK-resources.sh */,
+				6EA80B63A8F75C07A46AC748 /* Pods-AFULoginSDK.debug.xcconfig */,
+				8769D2931698D15992C9153C /* Pods-AFULoginSDK.release.xcconfig */,
+			);
+			name = "Pods-AFULoginSDK";
+			path = "Target Support Files/Pods-AFULoginSDK";
+			sourceTree = "<group>";
+		};
+		E0F4AADD889E62328EE1DBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D222E5642B5491A9F5F0425 /* AFULoginSDK.bundle */,
+				2E07874EBBC7C1246D13C5DB /* AFULoginSDK.bundle */,
+				2580E11F67FFE4C27BDABAC5 /* libPods-AFULoginSDK.a */,
+				C9565C4FADFB549A1645B2B2 /* libPods-AFULoginSDK-AFULoginSDK.a */,
+				42BA6F636AACC85CE393B755 /* libPods-AFULoginSDK-SVProgressHUD.a */,
+				0D5CBC7BE6DDDED67A62570B /* libPods-Tests.a */,
+				7D144654D5F514299D7D0FBA /* libPods-Tests-AFULoginSDK.a */,
+				23B483B79D3726581076209F /* libPods-Tests-SVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53C720E854E39F8A68F4427 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				A5F13092B309F8473D21107C /* ULProvider.h */,
+				B298C9D3F3835C098DAE0099 /* ULProviderFacebook.h */,
+				7EDDC2D8C3B5D498928D33E6 /* ULProviderFacebook.m */,
+				4158C17FDA8171E8BE15F87B /* ULProviderFlickr.h */,
+				175D1DE080E98FBDF749C5B8 /* ULProviderFlickr.m */,
+				1F52ACA055CBED45FA453C73 /* ULProviderFoursquare.h */,
+				A6D59E95AEB6D7B7352BD548 /* ULProviderFoursquare.m */,
+				52445CB8FCDE3E42133932FC /* ULProviderGoogle.h */,
+				3B8E32F3F5DB41445ADA04D1 /* ULProviderGoogle.m */,
+				C6101C95E50489DD5B5AC159 /* ULProviderGooglePlus.h */,
+				5857DE2CAFDD79F289A2885E /* ULProviderGooglePlus.m */,
+				2CA54627C719066BD06FD9BF /* ULProviderGuest.h */,
+				C75FC5DA62B27505CD3040F8 /* ULProviderGuest.m */,
+				65DA7F4E5CC7D29209DCBC38 /* ULProviderLastFM.h */,
+				B96C0A22E65CC2843D975A34 /* ULProviderLastFM.m */,
+				921B928AC0B7E071004D4253 /* ULProviderLinkedIn.h */,
+				4B8042DB2FFC39685774F664 /* ULProviderLinkedIn.m */,
+				9A58CD984B65FEDC62E067FA /* ULProviderLiveID.h */,
+				9B6DBD5A56120DB9426DA4A7 /* ULProviderLiveID.m */,
+				25DCC94C7FA25B7EA55AAD09 /* ULProviderLiveJournal.h */,
+				E108F0C49CD93EC47382FC39 /* ULProviderLiveJournal.m */,
+				565E8A3930EDCD43FA91BB46 /* ULProviderMailRU.h */,
+				55F518D605AD0296EE55E3D7 /* ULProviderMailRU.m */,
+				FEBBFE70F04BDBAB030E96E4 /* ULProviderOdnoklassniki.h */,
+				66A49BE9D078ADF93B44E4ED /* ULProviderOdnoklassniki.m */,
+				74E144A0E13F171596B008C6 /* ULProviderOpenID.h */,
+				66F466E78EB7EE47B2B2CCD0 /* ULProviderOpenID.m */,
+				42E3072C7BF5F96E71CF1728 /* ULProviderSoundCloud.h */,
+				F26672898F0B3872BD005429 /* ULProviderSoundCloud.m */,
+				296CEF535C11FC0FF6EAAB1E /* ULProviderSteam.h */,
+				38C33793DABC0AA922899254 /* ULProviderSteam.m */,
+				D3B0BFD1279C32CD76630F06 /* ULProviderTumblr.h */,
+				24793842AA3314AEEF79ED96 /* ULProviderTumblr.m */,
+				05E6AE5FF28D87BB1A17A14C /* ULProviderTwitter.h */,
+				D05D077B51E8CE06E86ABCEF /* ULProviderTwitter.m */,
+				134E1387836FC1F20DE7ABDE /* ULProviderVimeo.h */,
+				507227783DF14387F1F7FECB /* ULProviderVimeo.m */,
+				A7A145C676A738134940B653 /* ULProviderVkontakte.h */,
+				E330AD83946AD8BF1964D35A /* ULProviderVkontakte.m */,
+				B1990D9769F04FE2E2EEBED8 /* ULProviderWebMoney.h */,
+				1577359524378104605E8886 /* ULProviderWebMoney.m */,
+				BD262C4948F65AE5A4D75DF8 /* ULProviderYandex.h */,
+				E51D63679F0304EA6DB3DBA3 /* ULProviderYandex.m */,
+				72CC61BDC9A33C27419A3C81 /* ULProviderYouTube.h */,
+				65836EC27813E089C504120E /* ULProviderYouTube.m */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		F6EE73E4CD4640B776FA39DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				149532D0778AF1863800D8F0 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58DE42EBFB602076F8502961 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB918EFBD8461A9AAD130A0B /* SVIndefiniteAnimatedView.h in Headers */,
+				3468BE121419B2D24265AD17 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A2D16A81F903A3BAE4C3A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0B51E0B822EFE4A8D9E692 /* AFULoginSDK.h in Headers */,
+				55976DF8A53F2E248E619CFD /* ConnectionErrors.h in Headers */,
+				2A22BC21A07A0D33D12F0318 /* ULDefaultConfigurator.h in Headers */,
+				736C17CF9F5A18A12B750788 /* ULProvider.h in Headers */,
+				F0F932D2C56F4FE5280997E3 /* ULProviderFacebook.h in Headers */,
+				D044DA28C2A99877E6743220 /* ULProviderFlickr.h in Headers */,
+				7FE023C41033E09EED4AF664 /* ULProviderFoursquare.h in Headers */,
+				C6AF295F6219983B12FF0352 /* ULProviderGoogle.h in Headers */,
+				0334B447DB48FE710ACE289D /* ULProviderGooglePlus.h in Headers */,
+				E70B3737996C451E2BDD3615 /* ULProviderGuest.h in Headers */,
+				DEF8D9B57C38CF70AC197DED /* ULProviderLastFM.h in Headers */,
+				4F3649ACE7E530DFD21DFE4F /* ULProviderLinkedIn.h in Headers */,
+				1EC07D0AD459F9786F55EF3C /* ULProviderLiveID.h in Headers */,
+				C260EBF28D3C44958061713C /* ULProviderLiveJournal.h in Headers */,
+				C4A05EAEDD056AEBAF4742A4 /* ULProviderMailRU.h in Headers */,
+				4725B035E9AFEE85BCB48630 /* ULProviderOdnoklassniki.h in Headers */,
+				FE043CD8AE3DAA57D586B7B2 /* ULProviderOpenID.h in Headers */,
+				128E5F6C2E5A60B490CE1C52 /* ULProviderSoundCloud.h in Headers */,
+				5809FBB6C6C7FD9BDFB582F1 /* ULProviderSteam.h in Headers */,
+				7E57D81E9E649687B07707D8 /* ULProviderTumblr.h in Headers */,
+				89304763C5C1E7529D27EDC0 /* ULProviderTwitter.h in Headers */,
+				0A2E9E56F8DEDBF88753C1AB /* ULProviderVimeo.h in Headers */,
+				43D1F02BD658A8E27DB4F615 /* ULProviderVkontakte.h in Headers */,
+				8CFFB03D4C13350985E6430A /* ULProviderWebMoney.h in Headers */,
+				BD5357CD1DBD9AACAE9C08B6 /* ULProviderYandex.h in Headers */,
+				F6574F88B0FD270911AED0CF /* ULProviderYouTube.h in Headers */,
+				4310A8265ECC868F514E1D9E /* ULProvidersViewController.h in Headers */,
+				CCFA9D607CF0A4D7A26A2E61 /* ULUserProfileData.h in Headers */,
+				BB8DCA48DF03356D9B1FC00B /* ULWebViewController.h in Headers */,
+				CDF2F5BA01BCBEA08AA6E2AD /* uLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D17C674713D22FE4560326 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FF590130F4756102A6823D /* SVIndefiniteAnimatedView.h in Headers */,
+				6C0A947998615489B8C6123E /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85D72C777E0AC865E0250A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51D31118CF119FDCAB48848 /* AFULoginSDK.h in Headers */,
+				FDA25890A9905C8FFD9B72FC /* ConnectionErrors.h in Headers */,
+				35DBA360A879364C9A50D6F8 /* ULDefaultConfigurator.h in Headers */,
+				0A654AF65FAC72D8C5D32444 /* ULProvider.h in Headers */,
+				EC4F2CAA31FA4228FDE9085D /* ULProviderFacebook.h in Headers */,
+				71F43FCD926033904B76EC0D /* ULProviderFlickr.h in Headers */,
+				425ADD585D9ED69AAE07EEDA /* ULProviderFoursquare.h in Headers */,
+				9E76048524F41BEDDC679462 /* ULProviderGoogle.h in Headers */,
+				AE3911449499754621A46674 /* ULProviderGooglePlus.h in Headers */,
+				EB8F6D3C72DDA2893E98F742 /* ULProviderGuest.h in Headers */,
+				40EDD889CB3D9725699499DF /* ULProviderLastFM.h in Headers */,
+				4BF0C966B7DA1037786AE98D /* ULProviderLinkedIn.h in Headers */,
+				8FD09899A6C9B60E6AED4D70 /* ULProviderLiveID.h in Headers */,
+				1D785A5210FF09AC26239BC7 /* ULProviderLiveJournal.h in Headers */,
+				53A4277A99B15FBFAB7A81BB /* ULProviderMailRU.h in Headers */,
+				B574BFE07ED1E6C74F07A010 /* ULProviderOdnoklassniki.h in Headers */,
+				98234654FF91F475E4F0BA18 /* ULProviderOpenID.h in Headers */,
+				ACB969470475EEDAD2B980DF /* ULProviderSoundCloud.h in Headers */,
+				19BBE41CD7ABBF27AEB30162 /* ULProviderSteam.h in Headers */,
+				7B2BC34D0F161579899E562A /* ULProviderTumblr.h in Headers */,
+				F2BFF07CF00994D904FE7B71 /* ULProviderTwitter.h in Headers */,
+				236D940BA61F9AC67643553B /* ULProviderVimeo.h in Headers */,
+				930A7E48C54F12279042546D /* ULProviderVkontakte.h in Headers */,
+				DA2D7D1B3EC3B6AF7B36D65F /* ULProviderWebMoney.h in Headers */,
+				B3D7CBBE722D16509FF7C240 /* ULProviderYandex.h in Headers */,
+				6C92CE8CB6279E546B234572 /* ULProviderYouTube.h in Headers */,
+				79C08B55B0A841055FEB282C /* ULProvidersViewController.h in Headers */,
+				39474067C144E07BB9E63A6F /* ULUserProfileData.h in Headers */,
+				F23B87608ADE05F1CC86EAC3 /* ULWebViewController.h in Headers */,
+				55E91FAB94F55B6717C34967 /* uLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DAF8FB2BD4F57FFD82249C0 /* Pods-Tests-AFULoginSDK-AFULoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03197327F895FE47435CE895 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFULoginSDK-AFULoginSDK" */;
+			buildPhases = (
+				AC25BA72C01C2FF0F29A7134 /* Sources */,
+				C1278C1E59BD8D84E0B64F62 /* Frameworks */,
+				242A0F5630EF61D6D46285FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-AFULoginSDK-AFULoginSDK";
+			productName = "Pods-Tests-AFULoginSDK-AFULoginSDK";
+			productReference = 0D222E5642B5491A9F5F0425 /* AFULoginSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		467A8203E7DB630E4569CDA4 /* Pods-Tests-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E624F05C07D0BDE1A5DC411 /* Build configuration list for PBXNativeTarget "Pods-Tests-SVProgressHUD" */;
+			buildPhases = (
+				A732E2B0531E9C36AEE9A357 /* Sources */,
+				743A6C2430FB207AB77F2EC8 /* Frameworks */,
+				58DE42EBFB602076F8502961 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-SVProgressHUD";
+			productName = "Pods-Tests-SVProgressHUD";
+			productReference = 23B483B79D3726581076209F /* libPods-Tests-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63DF3BA41754A6C454C11182 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD441A39C0DDD5401E4E1FF /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				B94F7014471B37B9B7C59D8F /* Sources */,
+				334BAABDEAC9F39D99A2E391 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F891D87EB31F6EADA5D6712 /* PBXTargetDependency */,
+				532ADD057813892F75EFC463 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 0D5CBC7BE6DDDED67A62570B /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66E17A0B942665A87BEBC3A7 /* Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80DDF6840E72B54A0CC8B5C /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK" */;
+			buildPhases = (
+				8B2CDE5D0C1B210802D039D0 /* Sources */,
+				B00E6A406207CF4191DFBE3E /* Frameworks */,
+				362543D37F6D09ABAD0456BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK";
+			productName = "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK";
+			productReference = 2E07874EBBC7C1246D13C5DB /* AFULoginSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6E53E1E02D685977346BA948 /* Pods-AFULoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318A5A1DD047D09E0A25D855 /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK" */;
+			buildPhases = (
+				2FE89497222D1E5041E3C110 /* Sources */,
+				9C3564B513C67A69FE313229 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973E47C6C19C35AB51AC60BB /* PBXTargetDependency */,
+				81642DE0BD017B8F29A71005 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFULoginSDK";
+			productName = "Pods-AFULoginSDK";
+			productReference = 2580E11F67FFE4C27BDABAC5 /* libPods-AFULoginSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCD7073A4443DF19714F2893 /* Pods-AFULoginSDK-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE15E52FE750711A0ED9891 /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-SVProgressHUD" */;
+			buildPhases = (
+				B71A9BFDA909B2BAA65B9ABA /* Sources */,
+				A3D32E79796EB403A1E752C7 /* Frameworks */,
+				A7D17C674713D22FE4560326 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFULoginSDK-SVProgressHUD";
+			productName = "Pods-AFULoginSDK-SVProgressHUD";
+			productReference = 42BA6F636AACC85CE393B755 /* libPods-AFULoginSDK-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1DDB68C6E0A7BACC733A178 /* Pods-Tests-AFULoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834ACD1DB98D4658E81C3EB8 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFULoginSDK" */;
+			buildPhases = (
+				141AC164181756027DDCDB47 /* Sources */,
+				FFA38F2BB2C3D4188106EBBE /* Frameworks */,
+				FA85D72C777E0AC865E0250A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782B6524583EA85D61305923 /* PBXTargetDependency */,
+				FB9AD1B9C798055296014840 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-AFULoginSDK";
+			productName = "Pods-Tests-AFULoginSDK";
+			productReference = 7D144654D5F514299D7D0FBA /* libPods-Tests-AFULoginSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9313A1864CD93A5E1929C0E /* Pods-AFULoginSDK-AFULoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D9071FB51E8B322B90F03D /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-AFULoginSDK" */;
+			buildPhases = (
+				84879111C0DA7B651DA51D85 /* Sources */,
+				CA2F991901AD024564BCDCBB /* Frameworks */,
+				63A2D16A81F903A3BAE4C3A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A9F4CCE2CEE353ECB6DA8A /* PBXTargetDependency */,
+				DC93B103D7CAB036422D6728 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFULoginSDK-AFULoginSDK";
+			productName = "Pods-AFULoginSDK-AFULoginSDK";
+			productReference = C9565C4FADFB549A1645B2B2 /* libPods-AFULoginSDK-AFULoginSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1718E37660458D501D8BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A299A866F6A08E36E78EE6B3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF368E02E23B8369BFF54A83;
+			productRefGroup = E0F4AADD889E62328EE1DBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E53E1E02D685977346BA948 /* Pods-AFULoginSDK */,
+				F9313A1864CD93A5E1929C0E /* Pods-AFULoginSDK-AFULoginSDK */,
+				66E17A0B942665A87BEBC3A7 /* Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK */,
+				CCD7073A4443DF19714F2893 /* Pods-AFULoginSDK-SVProgressHUD */,
+				63DF3BA41754A6C454C11182 /* Pods-Tests */,
+				D1DDB68C6E0A7BACC733A178 /* Pods-Tests-AFULoginSDK */,
+				3DAF8FB2BD4F57FFD82249C0 /* Pods-Tests-AFULoginSDK-AFULoginSDK */,
+				467A8203E7DB630E4569CDA4 /* Pods-Tests-SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242A0F5630EF61D6D46285FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60A3739257EA884C66137F /* ULogin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362543D37F6D09ABAD0456BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C90598D6844FFC8152B9D /* ULogin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141AC164181756027DDCDB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AF75251DF076792C1F691 /* Pods-Tests-AFULoginSDK-dummy.m in Sources */,
+				2968F89A39E4EC78DBCC0A7A /* ULDefaultConfigurator.m in Sources */,
+				DCF3D21870C2BD08F304CA36 /* ULProviderFacebook.m in Sources */,
+				8B41686FF8972C92B1DCD967 /* ULProviderFlickr.m in Sources */,
+				C39433C20958468183246D6C /* ULProviderFoursquare.m in Sources */,
+				8D0D6FEE589DE2E6C2C080E6 /* ULProviderGoogle.m in Sources */,
+				BDA9DB7AF888716351BBA093 /* ULProviderGooglePlus.m in Sources */,
+				8937CC7024F4F6BF39D231CC /* ULProviderGuest.m in Sources */,
+				FBC28E95809E951F8BCEDDFA /* ULProviderLastFM.m in Sources */,
+				37E04EE02100035D0423D5FF /* ULProviderLinkedIn.m in Sources */,
+				1BA586357EC587276D200B54 /* ULProviderLiveID.m in Sources */,
+				8876A94586F789F7AACB77C9 /* ULProviderLiveJournal.m in Sources */,
+				EFE18551B3013CE7BB2797B8 /* ULProviderMailRU.m in Sources */,
+				F6990A24BAF3B837BD14B0A2 /* ULProviderOdnoklassniki.m in Sources */,
+				4AAA5E92A73EAF0C256C26C9 /* ULProviderOpenID.m in Sources */,
+				288B471B9FEDC247567722AA /* ULProviderSoundCloud.m in Sources */,
+				9B01A94274254CFA6CF2C635 /* ULProviderSteam.m in Sources */,
+				1ED555C55FDBE0C925BD34C6 /* ULProviderTumblr.m in Sources */,
+				3715DC7867DF4F9148079CE2 /* ULProviderTwitter.m in Sources */,
+				B97FA050E7D5242026C91629 /* ULProviderVimeo.m in Sources */,
+				5FC1777FBBDC90BE15570CF6 /* ULProviderVkontakte.m in Sources */,
+				FE8225DF78FE5BF4589B6026 /* ULProviderWebMoney.m in Sources */,
+				50F262E9AD2C44A4512BF626 /* ULProviderYandex.m in Sources */,
+				9015A5FE6EA0A45C43BABB36 /* ULProviderYouTube.m in Sources */,
+				10F572F6DBD143DFCC1E0D3D /* ULProvidersViewController.m in Sources */,
+				1FEE229DA9CFA056AE98CA06 /* ULUserProfileData.m in Sources */,
+				E1D03AF697C11FA3D5F63D10 /* ULWebViewController.m in Sources */,
+				0B5359E91A46D0B2E4DE5C1E /* uLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE89497222D1E5041E3C110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B78FE345E70EE61797197A /* Pods-AFULoginSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84879111C0DA7B651DA51D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF3861EF1E475521DEE8453 /* Pods-AFULoginSDK-AFULoginSDK-dummy.m in Sources */,
+				68E808F1008FF5D73F092307 /* ULDefaultConfigurator.m in Sources */,
+				9A161FB16E36F8652A7B652B /* ULProviderFacebook.m in Sources */,
+				BB95CA2EF86A81F9B359C09B /* ULProviderFlickr.m in Sources */,
+				55AEDBD819CB8E0B46FC6F69 /* ULProviderFoursquare.m in Sources */,
+				D091AFC72174444396CAC406 /* ULProviderGoogle.m in Sources */,
+				9A088F5BA7DD2E729A49717C /* ULProviderGooglePlus.m in Sources */,
+				0B924C011D87B4EE71DF6C52 /* ULProviderGuest.m in Sources */,
+				218830DD7D73C4B44F567B1B /* ULProviderLastFM.m in Sources */,
+				DF39DE5208FDF40FBC0845B7 /* ULProviderLinkedIn.m in Sources */,
+				859B9A46D7EB6B351782FAF8 /* ULProviderLiveID.m in Sources */,
+				E9E3310669030C0519BAC969 /* ULProviderLiveJournal.m in Sources */,
+				6E715F05D3B90B00C60B2D5D /* ULProviderMailRU.m in Sources */,
+				476409BB0D9B2100AEFBBEB1 /* ULProviderOdnoklassniki.m in Sources */,
+				8E735EF5EF5FE6114A1A30A3 /* ULProviderOpenID.m in Sources */,
+				DBAABB489D3DB535FD6A93C2 /* ULProviderSoundCloud.m in Sources */,
+				43BBC03AAA178B1D91E491E1 /* ULProviderSteam.m in Sources */,
+				8FBA7BDF542AF5DD44128ABF /* ULProviderTumblr.m in Sources */,
+				F56B4E15EB1C8EE235F3E4E5 /* ULProviderTwitter.m in Sources */,
+				09BEA920B0A616E1893F4384 /* ULProviderVimeo.m in Sources */,
+				860BF148848CA398220C6F03 /* ULProviderVkontakte.m in Sources */,
+				1CB44FAA1B6FCA856DCC6D89 /* ULProviderWebMoney.m in Sources */,
+				2A69AEB64C5A6907B89D7440 /* ULProviderYandex.m in Sources */,
+				F0C933AA35185C5FD6BABB02 /* ULProviderYouTube.m in Sources */,
+				9C4142BE7DB8720D16E82812 /* ULProvidersViewController.m in Sources */,
+				F605D6F27BC02D76BE199EB4 /* ULUserProfileData.m in Sources */,
+				BE7392B13DB4AAD73E98BEFE /* ULWebViewController.m in Sources */,
+				EBAC321AC8D88D884A2BFCEB /* uLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2CDE5D0C1B210802D039D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A732E2B0531E9C36AEE9A357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D38E989A6A253567A2790E /* Pods-Tests-SVProgressHUD-dummy.m in Sources */,
+				9265997EE1E81C1D4FCA30D7 /* SVIndefiniteAnimatedView.m in Sources */,
+				9F3D6720C28B4651A7A97E6D /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC25BA72C01C2FF0F29A7134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71A9BFDA909B2BAA65B9ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B8C530E10D80120F8A9B52 /* Pods-AFULoginSDK-SVProgressHUD-dummy.m in Sources */,
+				F9431C1E3BAC758E5E22A853 /* SVIndefiniteAnimatedView.m in Sources */,
+				BB7DD1C6B9186161B65EE85C /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94F7014471B37B9B7C59D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE884E04580A13BB47BEE99 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F891D87EB31F6EADA5D6712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-AFULoginSDK";
+			target = D1DDB68C6E0A7BACC733A178 /* Pods-Tests-AFULoginSDK */;
+			targetProxy = 35C1BCC2FF5A3A7C83DDF948 /* PBXContainerItemProxy */;
+		};
+		532ADD057813892F75EFC463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SVProgressHUD";
+			target = 467A8203E7DB630E4569CDA4 /* Pods-Tests-SVProgressHUD */;
+			targetProxy = 72D4F11AFA05DFE1CEC367D7 /* PBXContainerItemProxy */;
+		};
+		74A9F4CCE2CEE353ECB6DA8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK";
+			target = 66E17A0B942665A87BEBC3A7 /* Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK */;
+			targetProxy = E81D9BCF88FD44A5EE4009EB /* PBXContainerItemProxy */;
+		};
+		782B6524583EA85D61305923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-AFULoginSDK-AFULoginSDK";
+			target = 3DAF8FB2BD4F57FFD82249C0 /* Pods-Tests-AFULoginSDK-AFULoginSDK */;
+			targetProxy = B05AF2E4CE5A29D2345B6761 /* PBXContainerItemProxy */;
+		};
+		81642DE0BD017B8F29A71005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFULoginSDK-SVProgressHUD";
+			target = CCD7073A4443DF19714F2893 /* Pods-AFULoginSDK-SVProgressHUD */;
+			targetProxy = 4310119D34387D4837AFA779 /* PBXContainerItemProxy */;
+		};
+		973E47C6C19C35AB51AC60BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFULoginSDK-AFULoginSDK";
+			target = F9313A1864CD93A5E1929C0E /* Pods-AFULoginSDK-AFULoginSDK */;
+			targetProxy = 757B6CF5E1C6E2186DC2261D /* PBXContainerItemProxy */;
+		};
+		DC93B103D7CAB036422D6728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFULoginSDK-SVProgressHUD";
+			target = CCD7073A4443DF19714F2893 /* Pods-AFULoginSDK-SVProgressHUD */;
+			targetProxy = 027AB016986701123C6300FF /* PBXContainerItemProxy */;
+		};
+		FB9AD1B9C798055296014840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SVProgressHUD";
+			target = 467A8203E7DB630E4569CDA4 /* Pods-Tests-SVProgressHUD */;
+			targetProxy = 4AB4C270F0EA3F6545082D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004BE74B38E66137284DA26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6523AA7675705C693055A80A /* Pods-AFULoginSDK-AFULoginSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFULoginSDK-AFULoginSDK/Pods-AFULoginSDK-AFULoginSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		168043A0F92D4F0BE1683407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AFULoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		238ABB3BB00CDC25EA58D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767492965ACBCB7D058BA285 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3100A3F2BA487EB6AC835ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8769D2931698D15992C9153C /* Pods-AFULoginSDK.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		33694C02E7831C5893194622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485868179238187A5DC6A701 /* Pods-AFULoginSDK-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFULoginSDK-SVProgressHUD/Pods-AFULoginSDK-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D9DECD81EAF592F4FC38C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44AB0576CD9478B620A2E10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6523AA7675705C693055A80A /* Pods-AFULoginSDK-AFULoginSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFULoginSDK-AFULoginSDK/Pods-AFULoginSDK-AFULoginSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		524FE9AC14E20C5C0DECC1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AFULoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B941CCC3171F5DB79AA603C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F005880BBD470D653B87CD32 /* Pods-Tests-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8CFE2A86F2CA98B3B7AB9A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC5F8B738DD8F4997E70EDA /* Pods-Tests-AFULoginSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9D114100CD232032BC4EB24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F005880BBD470D653B87CD32 /* Pods-Tests-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SVProgressHUD/Pods-Tests-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D24C5AB823B9946E9181A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEFD6A89CE1C0B0B12F330DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AFULoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C3D6781D3B2D945E940CADFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AFULoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DDA0432CE6AC4784A48E79DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC5F8B738DD8F4997E70EDA /* Pods-Tests-AFULoginSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFULoginSDK/Pods-Tests-AFULoginSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE67831FE45253B4A32C171F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485868179238187A5DC6A701 /* Pods-AFULoginSDK-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFULoginSDK-SVProgressHUD/Pods-AFULoginSDK-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E98DFD43F1C0A03F8182975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA80B63A8F75C07A46AC748 /* Pods-AFULoginSDK.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F480C14FA18975BB0E00C464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF959A67A661FFFC87A71D8 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03197327F895FE47435CE895 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFULoginSDK-AFULoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168043A0F92D4F0BE1683407 /* Debug */,
+				BEFD6A89CE1C0B0B12F330DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318A5A1DD047D09E0A25D855 /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98DFD43F1C0A03F8182975D /* Debug */,
+				3100A3F2BA487EB6AC835ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E624F05C07D0BDE1A5DC411 /* Build configuration list for PBXNativeTarget "Pods-Tests-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D114100CD232032BC4EB24F /* Debug */,
+				8B941CCC3171F5DB79AA603C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834ACD1DB98D4658E81C3EB8 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFULoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA0432CE6AC4784A48E79DB /* Debug */,
+				8CFE2A86F2CA98B3B7AB9A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A299A866F6A08E36E78EE6B3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D24C5AB823B9946E9181A04 /* Debug */,
+				3D9DECD81EAF592F4FC38C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD441A39C0DDD5401E4E1FF /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238ABB3BB00CDC25EA58D87E /* Debug */,
+				F480C14FA18975BB0E00C464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D9071FB51E8B322B90F03D /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-AFULoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004BE74B38E66137284DA26D /* Debug */,
+				44AB0576CD9478B620A2E10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80DDF6840E72B54A0CC8B5C /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-AFULoginSDK-AFULoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524FE9AC14E20C5C0DECC1DE /* Debug */,
+				C3D6781D3B2D945E940CADFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE15E52FE750711A0ED9891 /* Build configuration list for PBXNativeTarget "Pods-AFULoginSDK-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33694C02E7831C5893194622 /* Debug */,
+				DE67831FE45253B4A32C171F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1718E37660458D501D8BDA /* Project object */;
+}

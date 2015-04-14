@@ -1,0 +1,31 @@
+{
+  "name": "AFULoginSDK",
+  "version": "0.1.0",
+  "summary": "A short description of AFULoginSDK.",
+  "description": "                       An optional longer description of AFULoginSDK\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/alexfedosov/AFULoginSDK",
+  "license": "MIT",
+  "authors": {
+    "Alexander Fedosov": "alexander.a.fedosov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alexfedosov/AFULoginSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AFULoginSDK": [
+      "Pod/Assets/**/*.storyboard"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ]
+  }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "AFViewController.h"
+#import "AFULoginSDK.h"
 
 @interface AFViewController ()
 
@@ -17,13 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [[uLogin sharedInstance] startLogin:[ULDefaultConfigurator new]
+                         viewController:self
+                             completion:^(ULUserProfileData *userProfileData, id<ULProvider> authProvider, NSString *uLoginToken) {
+                                 
+                                 
+        
+    }];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

@@ -1,20 +1,29 @@
 # AFULoginSDK
 
-[![CI Status](http://img.shields.io/travis/Alexander Fedosov/AFULoginSDK.svg?style=flat)](https://travis-ci.org/Alexander Fedosov/AFULoginSDK)
 [![Version](https://img.shields.io/cocoapods/v/AFULoginSDK.svg?style=flat)](http://cocoapods.org/pods/AFULoginSDK)
 [![License](https://img.shields.io/cocoapods/l/AFULoginSDK.svg?style=flat)](http://cocoapods.org/pods/AFULoginSDK)
 [![Platform](https://img.shields.io/cocoapods/p/AFULoginSDK.svg?style=flat)](http://cocoapods.org/pods/AFULoginSDK)
 
-## Usage
+## О SDK
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+SDK предназначена для интеграции в iOS приложения разработчиками мобильных приложений.<br>
+Поддерживаются все социальные сети, реализуемые uLogin. Этот под является более удобной оберткой вокруг оригинального SDK от uLogin https://github.com/ulogin/iOS
 
-## Requirements
+## Использование
 
-## Installation
+Чтоб запустить тестовый проект клонируйти репо, выполните `pod install` из папки Example. Пример использования можно найти в AFViewController:
 
-AFULoginSDK is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+```objc
+    [[uLogin sharedInstance] startLogin:[ULDefaultConfigurator new]
+                         viewController:self
+                             completion:^(ULUserProfileData *userProfileData, id<ULProvider> authProvider, NSString *uLoginToken) {
+    // блок вызывается в случае удачной авторизации
+    }];
+```
+
+## Установка
+
+AFULoginSDK доступен через [CocoaPods](http://cocoapods.org). Чтобы установить - просто добавьте в Podfile
 
 ```ruby
 pod "AFULoginSDK"
