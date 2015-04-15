@@ -50,7 +50,7 @@
 #pragma mark - Web view delegate
 
 -(void)webViewDidStartLoad:(UIWebView *)webView {
-    [SVProgressHUD showWithStatus:@"Загрузка"];
+    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeGradient];
 }
 
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {

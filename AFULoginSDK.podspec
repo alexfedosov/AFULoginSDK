@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AFULoginSDK"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "AFULoginSDK - обертка вокруг uLogin SDK для iOS. https://github.com/ulogin/iOS"
   s.homepage         = "https://github.com/alexfedosov/AFULoginSDK"
   s.license          = 'MIT'
