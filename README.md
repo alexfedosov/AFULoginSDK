@@ -11,7 +11,7 @@ SDK предназначена для интеграции в iOS приложе
 
 ## Использование
 
-Чтоб запустить тестовый проект клонируйти репо, выполните `pod install` из папки Example. Пример использования можно найти в AFViewController:
+Чтоб запустить тестовый проект клонируйте репо, выполните `pod install` из папки Example. Пример использования можно найти в AFViewController:
 
 ```objc
     [[uLogin sharedInstance] startLogin:[ULDefaultConfigurator new]
